@@ -23,7 +23,7 @@ def new_rollbacked_env():
     uid = odoo.SUPERUSER_ID
     cr = registry.cursor()
     try:
-        yield api.Environment(cr, uid, {})
+        yield api.Environment( {})
     finally:
         cr.rollback()  # we shouldn't have to commit anything
         cr.close()

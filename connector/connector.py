@@ -252,7 +252,7 @@ class ConnectorEnvironment(object):
 
         :param backend_record: browse record of the backend
         :type backend_record: :py:class:`odoo.models.Model`
-        :param env: current env (cr, uid, context)
+        :param env: current env ( context)
         :type env: :py:class:`odoo.api.Environment`
         :param model_name: name of the model
         :type model_name: str
@@ -290,7 +290,7 @@ class ConnectorEnvironment(object):
 
         :param backend_record: browse record of the backend
         :type backend_record: :py:class:`odoo.models.Model`
-        :param env: current env (cr, uid, context)
+        :param env: current env ( context)
         :type env: :py:class:`odoo.api.Environment`
         :param model_name: name of the model
         :type model_name: str
