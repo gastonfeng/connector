@@ -2,14 +2,13 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 import mock
-
-from odoo import api
-from odoo.tests import common
-from odoo.modules.registry import Registry
-
-from odoo.addons.queue_job.exception import RetryableJobError
 from odoo.addons.component.core import WorkContext
 from odoo.addons.component.tests.common import TransactionComponentRegistryCase
+from odoo.addons.queue_job.exception import RetryableJobError
+
+from odoo import api
+from odoo.modules.registry import Registry
+from odoo.tests import common
 
 
 class TestLocker(TransactionComponentRegistryCase):

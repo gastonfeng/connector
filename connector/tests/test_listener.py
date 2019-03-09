@@ -3,13 +3,13 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
 
 import mock
+from odoo.addons.component.core import Component
+from odoo.addons.component.tests.common import TransactionComponentRegistryCase
+from odoo.addons.component_event.components.event import skip_if
+from odoo.addons.component_event.core import EventWorkContext
+from odoo.addons.connector import components
 
 from odoo.tools import frozendict
-from odoo.addons.component.core import Component
-from odoo.addons.component_event.core import EventWorkContext
-from odoo.addons.component_event.components.event import skip_if
-from odoo.addons.component.tests.common import TransactionComponentRegistryCase
-from odoo.addons.connector import components
 
 
 class TestEventListener(TransactionComponentRegistryCase):

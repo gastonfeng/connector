@@ -3,9 +3,9 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
 
 import mock
+from odoo.addons.component.tests.common import TransactionComponentCase
 
 from odoo.exceptions import UserError
-from odoo.addons.component.tests.common import TransactionComponentCase
 
 
 class TestRelatedActionBinding(TransactionComponentCase):

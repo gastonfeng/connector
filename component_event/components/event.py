@@ -109,7 +109,6 @@ arguments. See :func:`skip_if`
 
 import logging
 import operator
-
 from collections import defaultdict
 from functools import wraps
 

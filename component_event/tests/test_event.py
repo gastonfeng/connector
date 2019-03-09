@@ -2,16 +2,16 @@
 # Copyright 2017 Camptocamp SA
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html)
 
-import mock
 import unittest
 
+import mock
+from odoo.addons.component.core import Component
 from odoo.addons.component.tests.common import (
     ComponentRegistryCase,
     TransactionComponentRegistryCase,
 )
-from odoo.addons.component.core import Component
-from odoo.addons.component_event.core import EventWorkContext
 from odoo.addons.component_event.components.event import skip_if
+from odoo.addons.component_event.core import EventWorkContext
 
 
 class TestEventWorkContext(unittest.TestCase):

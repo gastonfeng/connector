@@ -71,6 +71,7 @@ single-purpose, decoupled component.
 
 from odoo.addons.component.core import AbstractComponent
 from odoo.addons.queue_job.exception import RetryableJobError
+
 from ..database import pg_try_advisory_lock
 
 

@@ -11,8 +11,9 @@ Extend the 'base' Odoo Model to add Events related features.
 
 """
 
-from odoo import api, models
 from odoo.addons.component.core import _component_databases
+
+from odoo import api, models
 from ..components.event import CollectedEvents
 from ..core import EventWorkContext
 
