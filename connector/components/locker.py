@@ -2,8 +2,8 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html)
 
 import logging
-import psycopg2
 
+import psycopg2
 from odoo.addons.component.core import Component
 from odoo.addons.connector.exception import RetryableJobError
 

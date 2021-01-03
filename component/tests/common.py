@@ -3,18 +3,18 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html)
 
 import copy
-
+import unittest
 from contextlib import contextmanager
 
-import unittest
-import odoo
-from odoo import api
-from odoo.tests import common
 from odoo.addons.component.core import (
     ComponentRegistry,
     MetaComponent,
     _get_addon_name,
 )
+
+import odoo
+from odoo import api
+from odoo.tests import common
 
 
 @contextmanager

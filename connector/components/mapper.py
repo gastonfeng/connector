@@ -12,16 +12,16 @@ external records into Odoo records and conversely.
 
 """
 
+import collections
 import logging
 from collections import namedtuple
 from contextlib import contextmanager
 
-from odoo import models
 from odoo.addons.component.core import AbstractComponent
 from odoo.addons.component.exception import NoComponentError
-from ..exception import MappingError
-import collections
 
+from odoo import models
+from ..exception import MappingError
 
 _logger = logging.getLogger(__name__)
 

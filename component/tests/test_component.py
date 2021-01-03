@@ -3,14 +3,16 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html)
 
 from contextlib import contextmanager
+
 from odoo.addons.component.core import (
     Component,
 )
-from .common import TransactionComponentRegistryCase
 from odoo.addons.component.exception import (
     NoComponentError,
     SeveralComponentError,
 )
+
+from .common import TransactionComponentRegistryCase
 
 
 class TestComponent(TransactionComponentRegistryCase):

@@ -19,13 +19,11 @@ The most common classes used publicly are:
 
 import logging
 import operator
-
 from collections import defaultdict, OrderedDict
 
 from odoo import models
 from odoo.tools import OrderedSet, LastOrderedSet
 from .exception import NoComponentError, SeveralComponentError
-
 
 _logger = logging.getLogger(__name__)
 

@@ -4,6 +4,7 @@
 
 import mock
 from odoo.addons.component.core import AbstractComponent, Component
+
 from .common import ComponentRegistryCase
 
 

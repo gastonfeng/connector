@@ -2,8 +2,9 @@
 # Copyright 2016 Camptocamp SA
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html)
 
-from odoo import api, fields, models
 from odoo.addons.queue_job.job import job, related_action
+
+from odoo import api, fields, models
 
 
 class TestBackend(models.Model):

@@ -12,8 +12,9 @@ create the binding between them.
 
 """
 
-from odoo import fields, models, tools
 from odoo.addons.component.core import AbstractComponent
+
+from odoo import fields, models, tools
 
 
 class Binder(AbstractComponent):
